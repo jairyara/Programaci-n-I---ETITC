@@ -10,6 +10,11 @@
 
 # Generated files
 .idea/**/contentModel.xml
+.idea/vcs.xml
+.idea/misc.xml
+.idea/codestream.xml
+
+
 
 # Sensitive or high-churn files
 .idea/**/dataSources/
@@ -33,7 +38,7 @@
 # .idea/jarRepositories.xml
 # .idea/modules.xml
 # .idea/*.iml
-# .idea/modules
+.idea/modules
 # *.iml
 # *.ipr
 
