@@ -1,49 +1,49 @@
-public class Bicicleta {
-    private double velocidadActual;
-    private int platoActual;
-    private int pinonActual;
+public class bicicleta {
+    private double velocidadactual;
+    private int platoactual;
+    private int pinonactual;
 
-    public Bicicleta(double velocidadActual, int platoActual, int pinonActual) {
-        this.velocidadActual = velocidadActual;
-        this.platoActual = platoActual;
-        this.pinonActual = pinonActual;
+    public bicicleta(double velocidadactual, int platoactual, int pinonactual) {
+        this.velocidadactual = velocidadactual;
+        this.platoactual = platoactual;
+        this.pinonactual = pinonactual;
     }
 
-    public Bicicleta() {
-        this.velocidadActual = 0;
-        this.platoActual = 1;
-        this.pinonActual = 1;
+    public bicicleta() {
+        this.velocidadactual = 0;
+        this.platoactual = 1;
+        this.pinonactual = 1;
     }
 
     public void acelerar() {
-        velocidadActual = velocidadActual * 2;
+        velocidadactual = velocidadactual * 2;
     }
 
     public void frenar() {
-        velocidadActual = velocidadActual / 2;
+        velocidadactual = velocidadactual / 2;
     }
 
-    public void cambiarPlato(int plato) {
-        this.platoActual = plato;
+    public void cambiarplato(int plato) {
+        this.platoactual = plato;
     }
 
-    public void cambiarPinon(int pinon) {
-        this.pinonActual = pinon;
+    public void cambiarpinon(int pinon) {
+        this.pinonactual = pinon;
     }
 
-    public void cambiarPlato() {
-        this.platoActual = 1;
+    public void cambiarplato() {
+        this.platoactual = 1;
     }
 
-    public void cambiarPinon() {
-        this.pinonActual = 1;
+    public void cambiarpinon() {
+        this.pinonactual = 1;
     }
 
-    public int getPlatoActual() {
-        return platoActual;
+    public int getplatoactual() {
+        return platoactual;
     }
 
-    public int getPinonActual() {
-        return pinonActual;
+    public int getpinonactual() {
+        return pinonactual;
     }
 }
