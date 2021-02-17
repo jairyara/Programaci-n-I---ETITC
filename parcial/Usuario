@@ -1,0 +1,83 @@
+package escaneate.com.registro;
+
+/**
+ * Clase Usuario
+ * Objeto
+ *
+ */
+public class Usuario {
+	
+	//Atributos del objeto
+	private String nombre;
+	private String typeDNI;
+	private long DNI;
+	private long phone;
+	private String birth;
+	private String contact;
+	private String parent;
+	private String blood;
+	private String rh;
+	private String genre;
+	private String patology;
+	
+	//Método constructor
+	public Usuario(String nombre, String typeDNI, long DNI, long phone, String birth, String contact, String parent, String blood, String rh, String genre, String patology) {
+		this.nombre = nombre;
+		this.typeDNI = typeDNI;
+		this.DNI = DNI;
+		this.phone = phone;
+		this.birth = birth;
+		this.contact = contact;
+		this.parent = parent;
+		this.blood = blood;
+		this.rh = rh;
+		this.genre = genre;
+		this.patology = patology;
+	}
+	
+	//Métodos get
+	public String getNombre() {
+		return nombre;
+	}
+	
+	public String getTypeDNI() {
+		return typeDNI;
+	}
+	
+	public long getDNI() {
+		return DNI;
+	}
+	
+	public long getPhone() {
+		return phone;
+	}
+	
+	public String getBirth() {
+		return birth;
+	}
+	
+	public String getContact() {
+		return contact;
+	}
+	
+	public String getParent() {
+		return parent;
+	}
+	
+	public String getBlood() {
+		return blood;
+	}
+	
+	public String getRh() {
+		return rh;
+	}
+	
+	public String getGenre() {
+		return genre;
+	}
+	
+	public String getPatology() {
+		return patology;
+	}
+}
+
